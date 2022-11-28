@@ -109,6 +109,12 @@ nav a:hover {
     transition: all 0.5s ease-in-out;
 }
 
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
 /*-- Styling Table --*/
 table {
     margin: auto;
